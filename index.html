@@ -8,6 +8,17 @@
         background-color: #82A64C;
         
       }
+      .centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Pour centrer verticalement sur toute la hauteur */
+      }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
      .center{
             display: grid;
             place-items: center;  /* Center both horizontally and vertically */
@@ -16,8 +27,9 @@
     </style>
   </head>
   <body>
-     <div class="center">
-    <img src="minh-minh-1.jpg" alt="" />
+     <div class="centered">
+    <img src="minh-minh-1.jpg" max-width: 100%;
+  height: auto; alt="" />
     </div>   
   </body>
 </html>
